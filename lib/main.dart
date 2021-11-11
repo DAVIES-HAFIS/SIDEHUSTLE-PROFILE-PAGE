@@ -19,13 +19,13 @@ class MyApp extends StatelessWidget {
 
 class ProfilePage extends StatelessWidget {
 
-  @override
+  @overridegit
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.indigo,
-        title: Text("My Profile", style: TextStyle(color: Colors.white, fontSize: 20us, fontWeight: FontWeight.bold),),
+        title: Text("My Profile", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),),
         centerTitle: true,
       ),
       body: SafeArea(
